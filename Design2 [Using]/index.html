@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UCD Fencing</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/cardslider.css" rel="stylesheet">
+    <link href="css/follow.css" rel="stylesheet">
+    <link href="css/navigator.css" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav class= "navbar navbar-expand-md fixed-top">
+    <div class= "container">
+        <a class= "navbar-brand" href= "#">BRAND</a>
+        <button class= "navbar-toggler navbar-dark" type= "button" data-toggle= "collapse" data-target= "#navbarResponsive">
+            <span class= "navbar-toggler-icon"></span>
+        </button>
+    
+        <div class= "collapse navbar-collapse" id= "navbarResponsive">
+            <ul class= "navbar-nav ml-auto mask ">
+                <li class= "nav-item"><a class= "nav-link" href= "#">Home</a></li>
+                <li class= "nav-item"><a class= "nav-link" href= "#">News</a></li>
+                <li class= "nav-item"><a class= "nav-link" href= "#">Gallery</a></li>
+                <li class= "nav-item"><a class= "nav-link" href= "#">FAQ</a></li>
+                <li class= "nav-item"><a class= "nav-link" href= "#">Contact</a></li>
+    
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--- Image Slider -->
+<div id= "slides" class= "carousel slide" data-ride= "carousel">
+        <ul class= "carousel-indicators">
+            <li data-target= "#slides" data-slide-to= "0" class= "active"></li>
+            <li data-target= "#slides" data-slide-to= "1"</li>
+            <li data-target= "#slides" data-slide-to= "2"</li>
+        </ul>
+    
+        <div class= "carousel-inner">
+            <div class= "carousel-item active">
+                <img class="background" src= "img/background1.png" alt="First slide">
+                <div class= "carousel-caption">
+                    <h1 class= "display-2">Text</h1>
+                    <h3>More Text Here</h3>
+                    <button type= "button" class= "btn btn-outline-light btn-lg">Learn More</button>
+                </div>
+            </div>
+            <div class= "carousel-item">
+                <img class="background" src= "img/background2.png" alt="Second slide">
+            </div>
+            <div class= "carousel-item">
+                <img class="background" src = "img/background3.png" alt="Third slide">
+            </div>
+    </div>
+</div>
+
+<!--- News Section-->
+<div class="container-fluid news">
+    <div class="row">
+        <div class="container">
+            <!--- Heading-->
+            <div class="col-12">
+                <h2 class>Latest News
+                <span><a href="#"><button type="button" class="btn btn-outline-dark btn-sm">read more</button></a></span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- CARDS-->
+<div class="container-fluid padding news-board">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <div id="Carousel-2" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
+
+                <!--- Carousel items-->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                                <div class="col-md-4">
+                                        <div class="card border-info">
+                                            <!--- IMAGE-->
+                                            <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                            
+                                            <!--- CARD BODY-->
+                                            <div class="card-body">
+                                                <span class="category">Sports</span>
+                                                <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                        
+                                                <div class="post-meta">
+                                                    <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                    <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                    <div class="clearfix"></div>  
+                                                </div>
+
+                                                <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-md-4">
+                                        <div class="card border-info">
+                                            <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                            
+                                             <div class="card-body">
+                                                <span class="category">Sports</span>
+                                                <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                            
+                                                 <div class="post-meta">
+                                                    <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                    <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                    <div class="clearfix"></div>  
+                                                </div>
+
+                                                <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-4">
+                                        <div class="card border-info">
+                                            <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                                
+                                            <div class="card-body">
+                                                <span class="category">Sports</span>
+                                                <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                                
+                                                <div class="post-meta">
+                                                    <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                    <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                    <div class="clearfix"></div>  
+                                                </div>
+
+                                                <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div><!---row-->
+                    </div><!--item-->
+
+                    <div class="carousel-item">
+                        <div class="row">
+                                <div class="col-md-4">
+                                        <div class="card border-info">
+                                            <!--- IMAGE-->
+                                            <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                            
+                                            <!--- CARD BODY-->
+                                            <div class="card-body">
+                                                <span class="category">Sports</span>
+                                                <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                        
+                                                <div class="post-meta">
+                                                    <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                    <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                    <div class="clearfix"></div>  
+                                                </div>
+
+                                                <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col-md-4">
+                                        <div class="card border-info">
+                                            <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                            
+                                             <div class="card-body">
+                                                <span class="category">Sports</span>
+                                                <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                            
+                                                 <div class="post-meta">
+                                                    <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                    <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                    <div class="clearfix"></div>  
+                                                </div>
+
+                                                <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-4">
+                                        <div class="card border-info">
+                                            <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                                
+                                            <div class="card-body">
+                                                <span class="category">Sports</span>
+                                                <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                                
+                                                <div class="post-meta">
+                                                    <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                    <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                    <div class="clearfix"></div>  
+                                                </div>
+
+                                                <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div><!--row-->
+                    </div><!---item-->
+                    
+                    <div class="carousel-item">
+                            <div class="row">
+                                    <div class="col-md-4">
+                                            <div class="card border-info">
+                                                <!--- IMAGE-->
+                                                <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                                
+                                                <!--- CARD BODY-->
+                                                <div class="card-body">
+                                                    <span class="category">Sports</span>
+                                                    <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                            
+                                                    <div class="post-meta">
+                                                        <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                        <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                        <div class="clearfix"></div>  
+                                                    </div>
+
+                                                    <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-md-4">
+                                            <div class="card border-info">
+                                                <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                                
+                                                 <div class="card-body">
+                                                    <span class="category">Sports</span>
+                                                    <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                                
+                                                     <div class="post-meta">
+                                                        <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                        <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                        <div class="clearfix"></div>  
+                                                    </div>
+
+                                                    <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="card border-info">
+                                                <img class="card-img-top" src="img/team1.png" alt="Card image cap">
+                                                    
+                                                 <div class="card-body">
+                                                    <span class="category">Sports</span>
+                                                    <h4 class="card-title">What is Lorem Ipsum?</h1>
+                                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....</p>
+                                    
+                                                     <div class="post-meta">
+                                                        <span class="author"><a href="#"><i class="fas fa-user" style= "margin-right:4px"></i>Someone Famous</a></span>
+                                                        <span class="time"><a href="#"><i class="far fa-clock" style= "margin-right:4px"></i></i>Jul 10, 2018</a></span>
+                                                        <div class="clearfix"></div>  
+                                                    </div>
+
+                                                    <a href="#" class="btn btn-outline-danger btn-sm">Read more...</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+                            </div><!--row-->
+                    </div><!---item-->
+
+                </div><!---inner-->
+
+                  <!-- Left and right controls -->
+                <a id="left" class="btn btn-outline-secondary prev" href="#Carousel-2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a id="right" class="btn btn-outline-secondary next" href="#Carousel-2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+                </div><!---CAROUSEL-->
+            </div><!--- col-12-->
+        </div><!---row-->
+    </div><!---container-->
+</div>
+
+<!--- Contact US -->
+<div class="container-fluid location padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact Us</h2>
+
+                <hr>
+            </div>
+            
+            <div class="col-md-12 col-lg-4">
+                <div class="marker" style="font-size: 20px;">
+               <i class="fas fa-map-marker-alt fa-lg" aria-hidden="true"></i>
+                <address class="address hello">
+                    Address 1<br>
+                    Address 2<br>
+                    PostCode<br>
+                    <hr class="red">
+                </address>
+                
+                
+                <i class="fas fa-mobile-alt fa-lg" aria-hidden="true"></i>
+                <address class="address phone">
+                    Telephone No.<br>
+                </address>
+    
+                <i class="far fa-envelope fa-lg" aria-hidden="true"></i>
+                <address class="address">
+                    Email<br>
+                </address>
+                </div>
+            </div>
+
+    
+            <div class="col-md-12 col-lg-8">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4097.114840089087!2d-6.231703921961964!3d53.30821199052668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486709368aaf5ccf%3A0x248c7106c8f34fde!2sUCD+Sports+Centre!5e0!3m2!1sen!2sie!4v1531745624157" 
+                    frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- FOOTER -->
+<footer>
+    <div class="container-fluid foot">
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-sm-2">
+                </div>
+                
+                <div class="col-sm-8">
+                    <ul class="follow">
+                        <li><a href=""><i class="fab fa-snapchat-ghost" ></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter" ></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-f" ></i></a></li>
+                    </ul>
+
+                    <p>&copy;Copyright - UCD Fencing</p>
+                </div>
+
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+<!--- Carousel button interactions-->
+<script>
+$('#Carousel-2').carousel({
+  wrap: false
+}).on('slid.bs.carousel', function () {
+    curSlide = $('#Carousel-2 .active');
+  if(curSlide.is( ':first-child' )) {
+     setTimeout(function() {
+        document.getElementById("left").style.backgroundColor = '#9BC2CF';
+        document.getElementById("left").style.pointerEvents = 'none';
+    }, 20);
+     return;
+  } else {
+    setTimeout(function() {
+        $('.prev').show();
+        document.getElementById("left").style.backgroundColor = '#7aa1ae';
+        document.getElementById("left").style.pointerEvents = 'auto';
+    }, 60);  
+  }
+  if (curSlide.is( ':last-child' )) {
+    setTimeout(function() {
+        document.getElementById("right").style.backgroundColor = '#9BC2CF';
+        document.getElementById("right").style.pointerEvents = 'none';
+    }, 20);
+     return;
+  } else {
+    setTimeout(function() {
+        document.getElementById("right").style.backgroundColor = '#7aa1ae';
+        document.getElementById("right").style.pointerEvents = 'auto';
+        $('.next').show();
+    }, 60);      
+  }
+});
+
+</script>
+
+<!--- Carousel hover interaction-->
+<script>
+    var minWidth = 768;
+
+    if($(window).width() <= minSize){
+
+    }else{
+        $(document).ready(function(){
+
+        //trigger when mouse hover
+        $('.card').hover(
+            function(){
+                $(this).animate({
+                    marginTop: "-=3%",
+                }, 200);
+            },
+
+            //trigger when mouse out
+            function(){
+                $(this).animate({
+                    marginTop: "0%"
+                },200);
+            }
+        );
+        });
+    }
+  
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
