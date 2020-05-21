@@ -1,4 +1,4 @@
-# Website-Designs-Basic
+# Basic Web Designs
 Using HTML, CSS and JavaScript to develop a website.
 
 
