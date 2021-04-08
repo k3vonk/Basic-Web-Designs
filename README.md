@@ -2,7 +2,7 @@
 Using HTML, CSS and JavaScript to develop a website.
 
 
-Informative_Design
+Informative Design
 -------
 A more informative website template.
 
@@ -12,7 +12,7 @@ Implementations: sliders, cards, navbar, etc
 
 Problem: spacing, boxing.
 
-Sporty_Design
+Sporty Design
 ---------
 Based on a sporty look.
 
